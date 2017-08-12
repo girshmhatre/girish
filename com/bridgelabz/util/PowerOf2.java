@@ -1,6 +1,6 @@
 /******************************************************************************
  *  
- *  Purpose: Calcuate the  power of 2.
+ *  Purpose: Calculateate the Table of the power of 2.
  *
  *  @author  Girish Mhatre
  *  @version 1.0

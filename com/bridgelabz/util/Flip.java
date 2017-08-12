@@ -1,6 +1,6 @@
 /******************************************************************************
  *  
- *  Purpose: a coin flip and print out Head or Tails.
+ *  Purpose: A Coin Flip and Print Head or Tails.
  *
  *  @author  Girish Mhatre
  *  @version 1.0
@@ -19,10 +19,10 @@ public class Flip{
 	int count1 = 0;
 	int count2 = 0;
 	
-			for(int i = 0 ; i < n ; i++){
-			//Math.random()return a value between 0.0 and 1.0
-			System.out.println(Math.random());
-			//if randome value is less than 0.5 then print head and cunt1 increase
+		for(int i = 0 ; i < n ; i++){
+		//Math.random()return a value between 0.0 and 1.0
+		System.out.println(Math.random());
+		//if randome value is less than 0.5 then print head and cunt1 increase
 			if(Math.random() < 0.5){
 				System.out.println("Head");
 				count1++;
