@@ -26,5 +26,5 @@
 	isLeapYear = isLeapYear || (Year % 400 == 0);
 
 	System.out.println(isLeapYear);
-      }
+    }
 }

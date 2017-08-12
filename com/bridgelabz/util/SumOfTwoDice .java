@@ -10,7 +10,7 @@
 
 package com.bridgelabz.util;
 
-public Class SumOfTwoDice { 
+class SumOfTwoDice { 
     public static void main(String[] args) {
         int SIDES = 6;
         int a = 1 + (int) (Math.random() * SIDES);

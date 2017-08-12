@@ -1,6 +1,6 @@
 /******************************************************************************
  *  
- *  Purpose: Doing the Double operation.
+ *  Purpose: Claculate the Euclidean Distance
  *
  *  @author  Girish Mhatre
  *  @version 1.0
