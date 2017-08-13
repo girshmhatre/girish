@@ -9,7 +9,7 @@
 
 package com.bridgelabz.util;
 
-import java.util.Scanner;
+
 public class PrintThreeNames{
 	public static void main(String args[]){
       
