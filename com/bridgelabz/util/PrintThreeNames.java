@@ -12,18 +12,7 @@ package com.bridgelabz.util;
 import java.util.Scanner;
 public class PrintThreeNames{
 	public static void main(String args[]){
-		Scanner s = new Scanner (System.in);
-/*
-* Accept three strings from user
-*/
-		System.out.println("Enter three names:");
-		String S1 = s.next();
-		String S2 = s.next();
-	        String S3 = s.next();
-		
-/*
-* Print string in reverse format
-*/
-		System.out.println("Hi\t"+S3+"\t "+S2+"\t"+S1);
+      
+		System.out.println("Hi\t"+args[2]+"\t "+args[1]+"\t"+args[0]);
 	}
 }

@@ -11,8 +11,8 @@
 
 public class NoSuchErrorMethod
 {
-  public static void main()
+  public String  Display()
   {
-  System.out.println();
+  return "hi";
   }
 }
