@@ -12,10 +12,10 @@ package com.bridgelabz.util;
 
 public class PrimeRange{
       public static void main(String args[]){
-    int Range_start=Integer.parseInt(args[0]);
-    int Range_end= Integer.parseInt(args[1]);
+    int rangeStart=Integer.parseInt(args[0]);
+    int rangeEnd= Integer.parseInt(args[1]);
     int count;	
-	for(int i=Range_start;i<=Range_end;i++)
+	for(int i=rangeStart;i<=rangeEnd;i++)
 		{
     		 count = 0;
 		for(int j=2;j<=i/2;j++)

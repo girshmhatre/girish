@@ -12,21 +12,21 @@ package com.bridgelabz.util;
 
 public class Binary{
      public static void main(String arg[]){
-     int Decimal = Integer.parseInt(arg[0]);
+     int mDecimal = Integer.parseInt(arg[0]);
      int i=0;
      int b;
-     int a[] = new int[32];
-       while(Decimal>0){
-         b = Decimal%2;
-	 Decimal = Decimal/2;
+     int array[] = new int[8];
+       while(mDecimal>0){
+         b = mDecimal%2;
+	 mDecimal = mDecimal/2;
          a[i]=b;
 	 i++;
    
     }
-   for(i=32;i<a.length;i--)
+   for(i=0;i<array.length;i++)
    {
    
-      System.out.print(a[i]);
+      System.out.print(array[i]);
    }
    System.out.println();
   }

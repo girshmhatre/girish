@@ -13,7 +13,7 @@ public class Unsorted{
 
     public static void main(String arg[]){
 
-	int array[]=new int[]{3,6,1,8,5,4};
+	int array[]=new int[]{7,6,1,8,5,4};
 	int max1=array[0];       
 	int max2=0;
 	int min1=array[0];
@@ -28,13 +28,16 @@ public class Unsorted{
 			}
 		System.out.println("2nd largest element is:"+ max2);
 	
-		for(int i=1;i<array.length;i++){
+		  	for(int i=1;i<array.length;i++){
 		// if current element is smaller than first then update bth first and second
 					if(min1>=array[i]){
-              		min2=min1;
+              				min2=min1;
 					min1=array[i];
 				}
+			else if(min1 == min2 || (array[i] < min2 && array[i] != min1)){
+                                                min1 = array[i];
 			}
+}
 		System.out.println("2nd Smallest Element is:"+min2);
 	}
 }
