@@ -35,8 +35,8 @@ public class Flip{
 		} 
 		//claculat the percentage of Heads vs Tails
 		System.out.println(count1);
-		double head = (count1 / n) * 100;
-		double tail = (count2 / n) * 100;
+		double head = (count1 * 100) / n;
+		double tail = (count2 * 100) / n;
 		System.out.println(head+"% vs "+tail+"%");
 	}
 }
