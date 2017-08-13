@@ -15,7 +15,7 @@ public class Binary{
      int Decimal = Integer.parseInt(arg[0]);
      int i=0;
      int b;
-     int a[] = new int[8];
+     int a[] = new int[32];
        while(Decimal>0){
          b = Decimal%2;
 	 Decimal = Decimal/2;
@@ -23,10 +23,9 @@ public class Binary{
 	 i++;
    
     }
-   for(i=0;i<a.length;i++)
+   for(i=32;i<a.length;i--)
    {
-     if(i==4)
-      System.out.print(" ");
+   
       System.out.print(a[i]);
    }
    System.out.println();
