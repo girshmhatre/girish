@@ -20,12 +20,19 @@ public class Binary{
 	while(mDecimal>0){
         reminder = mDecimal%2;
 		mDecimal = mDecimal/2;
-        a[i]=reminder;
+        array[i]=reminder;
 		i++;
+	}
+	if(32-i!=0){		//checking if binary no is of 4 byte or not
+	int padding=32-i;
+	while(padding!=0){      //if not of 4 byte then padd with 0's to make it 
+		System.out.print(0);	//4 byte
+		padding--;
+	}
 	}
    for(i=0;i<array.length;i++){
 		System.out.print(array[i]);
 	}
-		System.out.println();
+		System.out.println(" ");
 	}
 }

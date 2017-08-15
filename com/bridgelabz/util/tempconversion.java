@@ -9,18 +9,18 @@
 
 package com.bridgelabz.util;
 
-public class tempconversion
+public class Tempconversion
 {
 public static void main(String args[])
    {
-     float fahrenheit = Float.parseFloat(args[]);
-	 float celsius = Float.parseFloat(args[]);
+     float fahrenheit = Float.parseFloat(args[0]);
+	 float celsius = Float.parseFloat(args[1]);
     
-     cl=5*(fh-32)/9;
-     System.out.printf("celsius=" + cl);
+     celsius=5*(fahrenheit-32)/9;
+     System.out.println("Celsius=" + celsius);
 
    
-     fh=(cl*9/5)+32;
-     System.out.printf("fahrenheit=" + fh);
+     fahrenheit=(celsius*9/5)+32;
+     System.out.println("Fahrenheit=" + fahrenheit);
     }
 }

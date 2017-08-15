@@ -1,6 +1,6 @@
 /******************************************************************************
  *  
- *  Purpose: Calculateate the Table of the power of 2.
+ *  Purpose: Calculate the Table of the power of 2.
  *
  *  @author  Girish Mhatre
  *  @version 1.0
@@ -9,7 +9,7 @@
  ******************************************************************************/
 package com.bridgelabz.util;
 
-public class PoweOf2{
+ public class PoweOf2{
 	 
     public static void main(String arg[]){
 	// n variable stores the number entered by the user as the input

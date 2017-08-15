@@ -6,10 +6,8 @@
  *  @since   08-08-2017
  *
  ******************************************************************************/
-
+package com.bridgelabz.util;
 public class PrintInitial
-
-public class Initial
 {
    public static void main(String args[])
      {

@@ -19,7 +19,7 @@ public class Harmonic{
 		
 	//  print and calculate the Sum of the Harmonic series
 	for(i = 1 ; i <= n ; i++){	 
-		System.out.println("1/"+i"+");
+		System.out.println("1/"+i+"+");
 		sum=sum+(double)1 / i;
 	}
 		System.out.println(sum);
