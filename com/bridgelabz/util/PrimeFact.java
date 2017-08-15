@@ -10,18 +10,19 @@
 package com.bridgelabz.util;
 
 public class PrimeFact{
-   public static void main(String arg[]){
+	public static void main(String arg[]){
 	int n = Integer.parseInt(arg[0]);
-        int i = 2;
-         while(n>1){
-          if(n%i==0){
-	 System.out.println(i+"");
-         n=n/i;
+    int i = 2;
+	
+    while(n>1){
+    if(n%i==0){
+		System.out.println(i+"");
+        n=n/i;
  	}
-else
-i++;
-}
-}
+	else
+		i++;
+	}
+	}
 }
   
      
