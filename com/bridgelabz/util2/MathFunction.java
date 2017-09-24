@@ -1,4 +1,4 @@
-package com.bridgelabz.util;
+//package com.bridgelabz.util;
 public class  MathFunction{
 public static double mHarmonic(int number1){
         int i = 1;
@@ -39,6 +39,18 @@ public static double mcos(int angle){
         }
         return binary;
     }
+ public static double findSqrt(int number,double epsilon1){
+        double mNumber = number;
+      
+        double t = mNumber;
+
+        while (Math.abs(t - mNumber/t) > epsilon1*t) {
+            t = (mNumber/t + t) / 2.0;
+        }
+
+        return t;
+    }
+
  public static boolean isPrime(int number) {
         boolean isPrimeNumber = false;
         int flag = 0;
@@ -66,15 +78,32 @@ public static double mcos(int angle){
         }
         return mNumber;
     }
+public static double futureVal(double doller,double rate,double period){
+   double mFutureValue = doller * (Math.pow((1 + rate), period));
+
+        return mFutureValue;
+    }
+ 	
+public static double presentVal(double doller,double rate,double period){
+   double mPresentValue = doller / (Math.pow((1 + rate), period));
+
+        return mPresentValue;
+    }
  	
 public static void main(String[] args){
 		
 	int number=Integer.parseInt(args [0]);
+        int number1=Integer.parseInt(args [1]);
+        int number2=Integer.parseInt(args [2]);
+        double epsilon = 1e-15;  
 	System.out.println("harmonic: "+mHarmonic(number));
         System.out.println("sin: "+mSin(number));
         System.out.println("cos: "+mcos(number));
         System.out.println("Binary: "+mBinary(number));
         System.out.println("prime no: "+isPrime(number));
         System.out.println("factorial: "+factorial(number));
+        System.out.println("findSqrt: "+findSqrt(number,epsilon));
+        System.out.println("FutureValue: "+futureVal(number,number1,number2));
+        System.out.println("presentValue: "+presentVal(number,number1,number2));
    }
 }
